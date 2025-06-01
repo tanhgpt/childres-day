@@ -135,7 +135,7 @@ function tapLove(id) {
 
 async function inipesan() {
   const { value: typedName } = await Swal.fire({
-    title: 'Nhập Tên Của Bé Iuu đi',
+    title: 'Nhập Tên Của bạn đi',
     input: 'text',
     inputValue: '',
     allowOutsideClick: false,
