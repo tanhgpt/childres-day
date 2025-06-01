@@ -93,7 +93,7 @@ function tapLove(id) {
       if (!loveMsg) return console.error('Không tìm thấy element loveMsg!');
 
       typeWriterEffect(
-        `Chúc ${userName} của anh 1/6 thật vui vẻ như một đứa trẻ, nhưng được anh yêu như một nữ hoàng 👑. Dù em có lớn bao nhiêu thì trong tim anh, em vẫn là công chúa bé bỏng cần được cưng chiều mỗi ngày! 💘`,
+        `nhớ ${userName} cho xin 4 tim nhé bạn iu`,
         'loveMsg',
         () => {
           const fromTag = document.createElement("div");
@@ -106,7 +106,7 @@ function tapLove(id) {
 
           // Nút nhận quà 🎁
           const giftLink = document.createElement('a');
-          giftLink.href = 'https://share.timo.vn/vn/p/21caf8ac-4b73-4740-984b-7675c64643a8';
+          giftLink.href = 'https://share.timo.vn/vn/p/b3f615fb-5876-4be1-8de4-17496585d31f';
           giftLink.target = '_blank';
           giftLink.innerHTML = `
             <button style="
