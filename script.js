@@ -98,11 +98,31 @@ function tapLove(id) {
         () => {
           const fromTag = document.createElement("div");
           fromTag.id = 'fromTag';
-          fromTag.textContent = "From: Việt Anh";
+          fromTag.textContent = "Ấn vào đây để nhận quà";
           fromTag.style.marginTop = "20px";
           fromTag.style.opacity = "0";
           fromTag.style.transition = "opacity 1s ease";
           loveMsg.appendChild(fromTag);
+
+          // Nút nhận quà 🎁
+          const giftLink = document.createElement('a');
+          giftLink.href = 'https://share.timo.vn/vn/p/21caf8ac-4b73-4740-984b-7675c64643a8';
+          giftLink.target = '_blank';
+          giftLink.innerHTML = `
+            <button style="
+              background-color: #ff5e57;
+              color: white;
+              padding: 12px 24px;
+              border: none;
+              border-radius: 8px;
+              font-size: 16px;
+              cursor: pointer;
+              margin-top: 20px;
+            ">
+              Nhận quà 🎁
+            </button>
+          `;
+          loveMsg.appendChild(giftLink);
 
           setTimeout(() => {
             fromTag.style.opacity = "1";
