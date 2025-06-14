@@ -81,7 +81,7 @@ function tapLove(id) {
   if (loveTaps.size === 4) {
     Swal.fire({
       title: 'Đủ 4 love rồi nè!',
-      text: 'Sẵn sàng nhận quà chưa? 💖',
+      text: 'Sẵn sàng nhận quà từ anh chưa? 💖',
       timer: 1500,
       showConfirmButton: false,
       background: '#fffbe7',
@@ -93,7 +93,7 @@ function tapLove(id) {
       if (!loveMsg) return console.error('Không tìm thấy element loveMsg!');
 
       typeWriterEffect(
-        `Mình có 1 món quà bất ngờ dành cho bạn nè`,
+        `Anh có 1 món quà bất ngờ dành cho em bé nè`,
         'loveMsg',
         () => {
           const fromTag = document.createElement("div");
@@ -106,7 +106,7 @@ function tapLove(id) {
 
           // Nút nhận quà 🎁
           const giftLink = document.createElement('a');
-          giftLink.href = 'https://share.timo.vn/vn/p/8cb5a1d7-ffbd-44a5-a859-0b8ddb14bbc8';
+          giftLink.href = 'https://share.timo.vn/vn/p/db30a91f-46a2-41b5-92e0-71499da869ac';
           giftLink.target = '_blank';
           giftLink.innerHTML = `
             <button style="
@@ -135,7 +135,7 @@ function tapLove(id) {
 
 async function inipesan() {
   const { value: typedName } = await Swal.fire({
-    title: 'Nhập Tên Của bạn đi',
+    title: 'Nhập Tên Của em đi',
     input: 'text',
     inputValue: '',
     allowOutsideClick: false,
