@@ -106,7 +106,7 @@ function tapLove(id) {
 
           // Nút nhận quà 🎁
           const giftLink = document.createElement('a');
-          giftLink.href = 'https://share.timo.vn/vn/p/db30a91f-46a2-41b5-92e0-71499da869ac';
+          giftLink.href = 'https://share.timo.vn/vn/p/5facae0e-370d-4529-a963-6fadd24785e2';
           giftLink.target = '_blank';
           giftLink.innerHTML = `
             <button style="
